@@ -1,0 +1,168 @@
+* {
+    margin: 5%;
+}
+
+body {
+    background-color: rgb(202, 125, 24);
+}
+
+.copito {
+
+    margin-left: 50%;
+    height: 100vh;
+}
+
+.cabeza {
+    top: 3%;
+    position: relative;
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+
+
+.ojo1,
+.ojo2 {
+    position: relative;
+    height: 15%;
+    width: 15%;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.ojo1 {
+    left: 45%;
+    top: 20%
+}
+
+.ojo2 {
+    left: 20%;
+
+}
+
+.pupila {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nariz {
+    position: relative;
+    width: 30%;
+    height: 10%;
+    background-color: orange;
+    clip-path: polygon(0 0, 200px 0, 150px 100%, 50px 100%);
+    transform: rotate(180deg);
+    left: 40%;
+}
+
+
+
+.cuerpo {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+}
+
+.cuerpo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 5%;
+    position: relative;
+    height: 40%;
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.boton1,
+.boton2,
+.boton3 {
+    position: relative;
+    background-color: black;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    left: 45%;
+    top: 15%;
+
+}
+
+
+
+
+
+.brazo1,
+.brazo2 {
+    position: relative;
+    height: 60%;
+    width: 10%;
+    background-color: brown;
+    z-index: -1;
+
+}
+
+.brazo1 {
+    right: 30%;
+    transform: rotate(130deg);
+    bottom: 80%;
+
+}
+
+.brazo2 {
+    bottom: 130%;
+
+    left: 110%;
+    transform: rotate(70deg);
+}
+
+.boca {
+    position: relative;
+    height: 5%;
+    width: 50%;
+    background-color: orange;
+    top: 65%;
+    left: 30%;
+}
+
+.sombrero {
+    position: relative;
+    height: 20%;
+    width: 20%;
+    top: 15%;
+    left: 35%;
+    z-index: 10;
+}
+
+.cuadrado {
+    position: relative;
+    background-color: black;
+    height: 80%;
+    width: 90%;
+
+}
+
+.circulo {
+    bottom: 10%;
+    right: 15%;
+    position: relative;
+    background-color: black;
+    height: 12%;
+    width: 130%;
+    border-radius: 50%;
+
+
+}
